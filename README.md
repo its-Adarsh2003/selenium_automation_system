@@ -214,7 +214,7 @@ Navigates: homepage → accept cookies → opinion page.
 
 Logs success/failure for each capability and total runtime.
 
-##🖼️ Screenshots
+## 🖼️ Screenshots
 ```
 ### Dashboard overview
 ![Dashboard overview](docs/dashboard_overview.png)

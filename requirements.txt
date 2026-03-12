@@ -1,0 +1,8 @@
+selenium
+webdriver-manager
+pandas
+plotly
+requests
+streamlit
+boto3
+googletrans==4.0.0rc1

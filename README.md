@@ -52,15 +52,15 @@ selenium_automation_system/
   README.md
   .gitignore
   .env                  # SNS + BrowserStack secrets (gitignored)
-⚙️ Setup
+## ⚙️ Setup
 ### Clone the repo
 
-bash
+```bash
 git clone https://github.com/its-Adarsh2003/selenium_automation_system.git
 cd selenium_automation_system
 Create and activate virtualenv
 
-bash
+```bash
 python -m venv .venv
 # Windows
 .venv\Scripts\activate
@@ -68,13 +68,14 @@ python -m venv .venv
 source .venv/bin/activate
 Install dependencies
 
-bash
+```bash
 pip install -r requirements.txt
 Environment variables (.env)
 
 Create a .env file in the project root:
 
-text
+```markdown
+```text
 SNS_TOPIC_ARN=arn:aws:sns:us-east-1:XXXXXXXXXXXX:YOUR_TOPIC
 AWS_REGION=us-east-1
 
@@ -87,7 +88,7 @@ The main scraping pipeline lives in tests/test_local_flow.py via run_pipeline() 
 
 Typical usage:
 
-bash
+```bash
 python main.py
 This will:
 
@@ -202,7 +203,7 @@ Safari on iPhone 15
 
 Example usage:
 
-bash
+```bash
 python tests/browserstack_runner.py
 The script:
 
@@ -212,16 +213,14 @@ Navigates: homepage → accept cookies → opinion page.
 
 Logs success/failure for each capability and total runtime.
 
-🖼️ Screenshots
+##🖼️ Screenshots
 Add your screenshots into docs/ and reference them:
 
-text
 ### Dashboard overview
-
-
+![Dashboard overview](docs/dashboard_overview.png)
 
 ### Word analysis
-
+![Word analysis](docs/word_analysis.png)
 
 🧪 Notes for reviewers
 This project is designed to be easily demo‑able:

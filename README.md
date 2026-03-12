@@ -4,11 +4,11 @@ End–to–end system that scrapes El País Opinion articles with Selenium, anal
 
 ## 🔍 What this project does
 
-- Scrapes the **Opinion** section of [elpais.com](https://elpais.com) (editoriales, tribunas).  
-- Extracts article titles, bodies, and lead images.  
-- Runs **text analysis** (word frequencies, repeated words in titles).  
-- Serves an interactive **Streamlit dashboard** on top of the scraped CSV.  
-- Sends **email alerts** via SNS when the pipeline fails, with a `FORCE_FAILURE` flag to demo the failure path.  
+- Scrapes the **Opinion** section of [elpais.com](https://elpais.com) (editoriales, tribunas).
+- Extracts article titles, bodies, and lead images.
+- Runs **text analysis** (word frequencies, repeated words in titles).
+- Serves an interactive **Streamlit dashboard** on top of the scraped CSV.
+- Sends **email alerts** via SNS when the pipeline fails, with a `FORCE_FAILURE` flag to demo the failure path.
 - Runs **parallel smoke tests on BrowserStack** across multiple browsers/devices.
 
 ## 🧱 Tech stack
@@ -42,7 +42,7 @@ selenium_automation_system/
 
   tests/
     test_local_flow.py  # Local pipeline runner + (optional) tests
-    browserstack_runner.py (if you split it)  # BS smoke tests
+    browserstack_runner.py  # BrowserStack smoke tests
 
   reports/              # CSV + logs output (gitignored)
   images/               # Downloaded article images (gitignored)
@@ -52,8 +52,9 @@ selenium_automation_system/
   README.md
   .gitignore
   .env                  # SNS + BrowserStack secrets (gitignored)
-## ⚙️ Setup
-### Clone the repo
+           
+⚙️ Setup
+ Clone the repo
 
 ```bash
 git clone https://github.com/its-Adarsh2003/selenium_automation_system.git
@@ -208,6 +209,7 @@ python tests/browserstack_runner.py
 The script:
 
 Creates parallel Remote WebDriver sessions with different capabilities.
+solve krta hu abhi e=acche se detail m bta
 
 Navigates: homepage → accept cookies → opinion page.
 

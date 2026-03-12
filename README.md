@@ -209,7 +209,6 @@ python tests/browserstack_runner.py
 The script:
 
 Creates parallel Remote WebDriver sessions with different capabilities.
-solve krta hu abhi e=acche se detail m bta
 
 Navigates: homepage → accept cookies → opinion page.
 
@@ -241,8 +240,6 @@ Only docs screenshots are tracked under docs/.
 If you’d like to see a quick walkthrough or have questions about specific design decisions (page objects, parallelization, alerting), feel free to reach out.
 
 text
-
-Iske baad VS Code me preview dekh le (`Ctrl+Shift+V`), agar clean dikh raha hai then:
 
 ```bash
 git add README.md docs/

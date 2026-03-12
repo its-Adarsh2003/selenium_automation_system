@@ -214,14 +214,13 @@ Navigates: homepage → accept cookies → opinion page.
 Logs success/failure for each capability and total runtime.
 
 ##🖼️ Screenshots
-Add your screenshots into docs/ and reference them:
-
+```
 ### Dashboard overview
 ![Dashboard overview](docs/dashboard_overview.png)
 
 ### Word analysis
 ![Word analysis](docs/word_analysis.png)
-
+```
 🧪 Notes for reviewers
 This project is designed to be easily demo‑able:
 
